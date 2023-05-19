@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: radial-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+} 
+
+
+h1,h2,h4{
+    text-shadow: 0px 0px 2px black;
+}
+
+h2, h4{
+    /* background: #EFB0C9; */
+    
+}
+
+#profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #EfB0C9;
+}
+
+#header{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+#bdayage{
+    /* background: #EFB0C9; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+#bdaydate{
+    /* background: #EFB0C9; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+
+}
+
+.giftsection{
+    margin-top: 100px;
+}
+.about{
+    color: black;
+    text-shadow: 0px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.hover{
+    color: black;
+    /* background: #a2d2ff; */
+    margin-top: 0px;
+}
+
+.giftimg{
+    background-image: url(gift.png);
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    margin: 0px auto; 
+}
+
+#gifthappy:hover{
+    background-image: url(giftopen.jpg);
+    background-size: cover;
+}
+
+#gifthot:hover{
+    background-image: url(giftopen.jpg);
+}
+
+#last{
+    height: 200px;
+}
+
+#footer{
+    width: 400px;
+    margin: 40px auto 20px auto;
+    color: black;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
